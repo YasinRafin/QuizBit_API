@@ -85,9 +85,9 @@ WSGI_APPLICATION = "quizbit.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quiz_bit',
-        'USER': 'postgres',
-        'PASSWORD': 'p@stgress',
+        'NAME': 'database_name',
+        'USER': 'postgress_username',
+        'PASSWORD': 'postgress_password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
