@@ -1,2 +1,13 @@
-env/
+# Ignore the .env file
+.env
 
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore logs
+*.log
+
+# Ignore virtual environment directories
+venv/
+env/
