@@ -65,7 +65,7 @@ To test the APIs:
 
   1. Open Postman.
   2. Import the Postman collection:
-       - File: 
+       - File: [Download](QuizBit API.postman_collection.json)
        - This file contains pre-configured requests for all API endpoints.
   3. Adjust parameters (e.g., question ID, user ID) as needed.
   4. Click Send to test each API.
