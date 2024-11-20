@@ -52,6 +52,18 @@ A Django-based project to provide a simplified API and database structure for Qu
    python manage.py runserver
    ```
 # API Endpoints
+### In the header need to add Authorization Token: Key: Authorization , value: Token your_token
+### For generating token there is api created please make sure to use that to generate your Authorization token.
+    ```
+    - URL: http://127.0.0.1:8000/api/token/
+    - Method: POST
+    - Body: (JSON)
+      {
+       "username": "your_username",
+       "password": "your_password"
+      }
+    ```
+
 | Endpoint         |  Method          | Description                       |
 |------------------|------------------|---------------------------------- |
 | /question/questions/	 |   GET	    | Retrieve a list of all questions. |
